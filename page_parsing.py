@@ -77,7 +77,7 @@ def _wordcloud_abstract(text):
     if len(text)==0:
         return
     global count
-    filename = 'wordcloud'+str(count)+'.png';
+    filename = 'Pictures/wordcloud'+str(count)+'.png';
     count += 1
     stopwords = set(STOPWORDS)
     wordcloud = WordCloud(background_color="black", max_words=2000,
